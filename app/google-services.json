@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "679721765456",
+    "firebase_url": "https://smarthandbag1.firebaseio.com",
+    "project_id": "smarthandbag1",
+    "storage_bucket": "smarthandbag1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679721765456:android:56211625cda2fa53",
+        "android_client_info": {
+          "package_name": "com.example.nuwan.smarthandbag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679721765456-qs52jt8apcl59t466pd6ge3691b71im1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nuwan.smarthandbag",
+            "certificate_hash": "f1b0727f044ca13857ac9fa798d20325e3f0a417"
+          }
+        },
+        {
+          "client_id": "679721765456-ufvbr2m6n276eeas2lr84hfnskpl2uka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsbdDJrBYni_Rykglfh01Qmlu6IAeHmAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679721765456-ufvbr2m6n276eeas2lr84hfnskpl2uka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

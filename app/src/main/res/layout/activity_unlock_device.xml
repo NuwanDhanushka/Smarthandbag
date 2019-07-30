@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UnlockDeviceActivity">
+
+    <Button
+        android:id="@+id/btnpatternunlock"
+        android:layout_width="95dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/btnpatterndraw"
+        android:onClick="unlockpattern"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtpatternunlock"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/patternunlock"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        app:fontFamily="@font/open_sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnpatternunlock" />
+
+    <Button
+        android:id="@+id/btnpinunlock"
+        android:layout_width="95dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/btnpindraw"
+        android:onClick="unlockpin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtpinunlock"
+        android:layout_width="151dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="156dp"
+        android:text="@string/fingernlock"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        app:fontFamily="@font/open_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnpinunlock"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <TextView
+        android:id="@+id/txtpinunlock2"
+        android:layout_width="116dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/pinunlock"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        app:fontFamily="@font/open_sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnpinunlock" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btnfingerdraw"
+        android:onClick="fingerunlock"
+        app:layout_constraintBottom_toTopOf="@+id/txtpinunlock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtpinunlock2"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>

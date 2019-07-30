@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Smart Handbag ™</string>
+    <string name="Scan">Scan</string>
+    <string name="letsgetstarted">Let\'s get started.</string>
+    <string name="scanqr">Scan the QR Code you get with Smart HandBag™</string>
+    <string name="welcome">Welcome.</string>
+    <string name="letsregister">Let\'s get you settled in.</string>
+    <string name="enterdetails">Enter your details below.</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="login_success">Login Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="title_activity_mandatoryitems">mandatoryitemsActivity</string>
+    <string name="Name">Name</string>
+    <string name="Description">A description of item (optional) </string>
+    <string name="Add">Add</string>
+    <string name="Notify">Notify when out of range</string>
+    <string name="Edit">Edit</string>
+    <string name="Remove">Remove</string>
+    <string name="email">Email</string>
+    <string name="Set">Set</string>
+    <string name="Set_a_pattern">Set a unlock pattern to your SmartHandbag ™</string>
+    <string name="Set_a_pin">Set a pin to your SmartHandbag ™</string>
+    <string name="title_activity_bag_location">Map</string>
+    <string name="drawpattern">Draw the pattern to unlock your SmartHandbag ™</string>
+    <string name="enterpin">Enter the pin to unlock your SmartHandbag ™</string>
+    <string name="fingerun">Place finger on fingerprint sensor to unlock your SmartHandbag ™</string>
+    <string name="findmybad">Find My Bag</string>
+    <string name="panicbutton">Panic Button</string>
+    <string name="unlockbag">Unlock Bag</string>
+    <string name="settings">Settings</string>
+    <string name="mandotryitems">Mandotry Items List</string>
+    <string name="currentlocation">Current Location</string>
+    <string name="visitedlocation">Visited Location</string>
+    <string name="lastlocation">Last(Offline) Location</string>
+    <string name="patternunlock">Pattern Unlock</string>
+    <string name="pinunlock">Pin Unlock</string>
+    <string name="fingernlock">Finger Unlock</string>
+    <string name="title_activity_geofence">Map</string>
+    <string name="popupoptions">options</string>
+    <string name="verifyidentity">Verify your identity by providing login details</string>
+    <string name="loginalr">*If you already have an account, click on the login button</string>
+    <string name="title_activity_lastlocation_maps">Map</string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+    <string name="geofence_transition_notification_text">
+        Click notification to view your bags location
+    </string>
+    <string name="geofence_transition_entered">SmartHandBag is with you.</string>
+    <string name="geofence_transition_exited">SmartHandBag is away from you.</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+</resources>
