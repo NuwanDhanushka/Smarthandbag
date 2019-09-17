@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Circle Player</title>
+        
+        <!-- bootstrap cdn for font-awesome -->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+        <!-- jquery cdn for jquery -->
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+        
+        <!-- Download and include this css in your project -->
+        <link rel="stylesheet" type="text/css" href="circle-player.css"/>
+        <!-- Download and include this js in your project -->
+        <script src="circle-player.js"></script>
+        
+    </head>
+    
+    <body style="font-family: Sans-Serif;">
+        
+        <p>Click in the center of the circle to play/pause, click on the ring to seek to a location.</p>
+        <p>This plugin doesn't require any html to be in the containers. It will create its any html elements that are necessary.</p>
+        
+        <!-- The inline style is not necessary. You can can customize the container as much as you want, as long as it is at least 50px by 50px. -->
+        <div id="cp-1" style="display:inline-block;margin:15px;"></div>
+        
+        <!-- Showing two players to show that they wont conflict with each other. -->
+        <div id="cp-2" style="display:inline-block;margin:15px;"></div>
+        
+        <p>Enjoy :)</p>
+    
+		<script>
+var url = "http://freemusicarchive.org/music/download/c144410f8fcaf18f270e2f960f2c62a95266eae9";
+$('#cp-1').CirclePlayer(url);
+$('#cp-2').CirclePlayer(url);
+        </script>
+        
+    </body>
+</html>
